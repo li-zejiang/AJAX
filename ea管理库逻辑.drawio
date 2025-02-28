@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="YNdHfXmyiviY9QAdafFr">
-    <mxGraphModel dx="2438" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2538" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="krMl-AVOp_0bmk9KP0Yk-29" value="&amp;lt;&amp;lt;用户工作台&amp;gt;&amp;gt;" style="html=1;align=right;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=50;dashed=0;spacingTop=10;spacingRight=30;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="30" width="800" height="540" as="geometry" />
-        </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-4" target="krMl-AVOp_0bmk9KP0Yk-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -27,7 +24,7 @@
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-8" target="krMl-AVOp_0bmk9KP0Yk-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="krMl-AVOp_0bmk9KP0Yk-8" value="获取用户工程配置文件" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-8" value="获取用户工程配置文件（grpc）" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="370" y="210" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-9" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-8">
@@ -35,8 +32,15 @@
             <mxPoint x="-20" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-10" target="krMl-AVOp_0bmk9KP0Yk-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-10" value="获取用户EA仓库信息" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="160" height="50" as="geometry" />
+          <mxGeometry x="170" y="430" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-11" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-10">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
@@ -44,7 +48,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-12" value="用户仓库信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="300" width="160" height="210" as="geometry" />
+          <mxGeometry x="1040" y="480" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-13" value="+仓库名称（对应数据库名称）&lt;br&gt;+仓库实际的url地址&lt;br&gt;+仓库对应的git仓库地址&lt;div&gt;+&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-12">
           <mxGeometry y="50" width="160" height="160" as="geometry" />
@@ -55,7 +59,7 @@
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-15" value="+用户项目空间信息（项目空间基本信息描述）&lt;div&gt;+用户EA项目信息&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-14">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="krMl-AVOp_0bmk9KP0Yk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.419;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-8" target="krMl-AVOp_0bmk9KP0Yk-10">
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-8" target="krMl-AVOp_0bmk9KP0Yk-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-19" value="基于配置文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="krMl-AVOp_0bmk9KP0Yk-18">
@@ -75,12 +79,22 @@
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-8" target="krMl-AVOp_0bmk9KP0Yk-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-22" target="krMl-AVOp_0bmk9KP0Yk-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-22" value="项目批注信息" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="372.5" y="370" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-23" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-22">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-25" target="krMl-AVOp_0bmk9KP0Yk-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="600" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-25" value="项目更新通知" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
@@ -91,13 +105,186 @@
             <mxPoint x="-20" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-28" target="krMl-AVOp_0bmk9KP0Yk-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-28" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
-          <mxGeometry x="437.5" y="850" width="30" height="30" as="geometry" />
+          <mxGeometry x="440" y="820" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-30" target="krMl-AVOp_0bmk9KP0Yk-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="600" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-30" value="其他软件信息" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-10" y="370" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="krMl-AVOp_0bmk9KP0Yk-31" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-30">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-35" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="700" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-36" target="krMl-AVOp_0bmk9KP0Yk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-36" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="585" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-43" value="用户创建EA仓库" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="376" y="970" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-44" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-43">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-45" target="krMl-AVOp_0bmk9KP0Yk-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-45" target="krMl-AVOp_0bmk9KP0Yk-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1000" width="5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-46" target="krMl-AVOp_0bmk9KP0Yk-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-46" value="创建EA仓库（Sql）" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-47" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-46">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-48" target="krMl-AVOp_0bmk9KP0Yk-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-48" value="创建Git仓库" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-49" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-48">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-50" target="krMl-AVOp_0bmk9KP0Yk-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-50" target="krMl-AVOp_0bmk9KP0Yk-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-50" value="配置仓库信息（用户、权限）" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="1320" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-51" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-50">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-52" value="EA仓库初始化" style="html=1;dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1190" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-53" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;dashed=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-52">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-54" value="Git仓库初始化为空" style="html=1;dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1190" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-55" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;dashed=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-54">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-56" target="krMl-AVOp_0bmk9KP0Yk-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1240" width="5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-43" target="krMl-AVOp_0bmk9KP0Yk-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.5;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-52" target="krMl-AVOp_0bmk9KP0Yk-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.7;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-54" target="krMl-AVOp_0bmk9KP0Yk-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-67" target="krMl-AVOp_0bmk9KP0Yk-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-67" value="写入到EA仓库中" style="html=1;dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1430" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-68" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;dashed=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-67">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.99999999999955" y="1550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="1520" />
+              <mxPoint x="470" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-69" value="写入到Git仓库中(配置用户、权限)" style="html=1;dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1430" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-70" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;dashed=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-69">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-73" target="krMl-AVOp_0bmk9KP0Yk-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-73" value="更新每个相关用户的工程配置文件信息" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="1550" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-74" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-73">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-77" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="1710" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-80" target="krMl-AVOp_0bmk9KP0Yk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-80" value="获取用户EA项目空间信息" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="310" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-81" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-80">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-83" value="用户EA项目空间信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="250" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-84" value="+仓库名称（对应数据库名称）&lt;br&gt;+仓库实际的url地址&lt;br&gt;+仓库对应的git仓库地址&lt;div&gt;+&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-83">
+          <mxGeometry y="50" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="krMl-AVOp_0bmk9KP0Yk-85" target="krMl-AVOp_0bmk9KP0Yk-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-85" value="用户创建EA项目空间" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="890" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="krMl-AVOp_0bmk9KP0Yk-86" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="krMl-AVOp_0bmk9KP0Yk-85">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-20" y="-10" as="offset" />
           </mxGeometry>
