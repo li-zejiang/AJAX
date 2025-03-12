@@ -730,7 +730,7 @@
           <mxGeometry x="-455" y="3010" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dU9nETvvk-x08kedzOwQ-52" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="3470" width="30" height="30" as="geometry" />
+          <mxGeometry x="-400" y="3510" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dU9nETvvk-x08kedzOwQ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="dU9nETvvk-x08kedzOwQ-54" target="dU9nETvvk-x08kedzOwQ-60" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -747,14 +747,23 @@
         <mxCell id="dU9nETvvk-x08kedzOwQ-58" value="调用gitlib 克隆仓库" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-455" y="3160" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="dU9nETvvk-x08kedzOwQ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dU9nETvvk-x08kedzOwQ-60" target="dU9nETvvk-x08kedzOwQ-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dU9nETvvk-x08kedzOwQ-60" value="是否需要在本地打开项目以获取更优势的体验？" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-455" y="3300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dU9nETvvk-x08kedzOwQ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dU9nETvvk-x08kedzOwQ-61" target="dU9nETvvk-x08kedzOwQ-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dU9nETvvk-x08kedzOwQ-61" value="创建一个默认的项目文件" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-455" y="3370" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="dU9nETvvk-x08kedzOwQ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dU9nETvvk-x08kedzOwQ-62" target="dU9nETvvk-x08kedzOwQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dU9nETvvk-x08kedzOwQ-62" value="导入xml文件" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-455" y="3420" width="140" height="40" as="geometry" />
+          <mxGeometry x="-455" y="3440" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
